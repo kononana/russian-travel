@@ -1,6 +1,5 @@
 .lead__image {
-    min-width: 984px;
-    min-height: 615px;
+    width: 100%;
     background-size: contain;
-    margin-top: 64px;
+    padding-top: 64px;
 }

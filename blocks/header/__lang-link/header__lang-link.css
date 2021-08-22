@@ -3,12 +3,18 @@
     font-size: 24px;
     font-style: normal;
     font-weight: 400;
-    line-height: 28px;
+    line-height: 1.1;
     text-align: right;
     color: white;
     padding-right: 18px;
+    text-decoration: none;
+    transition: opacity 0.3s;
 }
 
 .header__lang-link:hover {
-    text-decoration: none;
+    opacity: 0.7;
+}
+
+.header__lang-link:last-child {
+    padding-right: 0;
 }

@@ -2,6 +2,6 @@
     display: flex;
     max-width: 1184xp;
     justify-content: space-between;
-    align-items: center;
-    margin: 28px 48px;
+    align-items: baseline;
+    margin: 28px 48px 0;
 }

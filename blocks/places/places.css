@@ -1,7 +1,21 @@
 .places {
-    margin: 92px auto 92px;
-    box-sizing: border-box;
-    margin-bottom: 92px;
-    list-style: none;
-    max-width: calc(100vw - 48px * 2);
+    margin: 92px 148px 0;
+}
+
+@media screen and (max-width: 1025px) {
+    .places {
+        margin: 92px 48px 0;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .places {
+        margin: 92px 24px 0;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .places {
+        margin: 92px 0 0;
+    }
 }

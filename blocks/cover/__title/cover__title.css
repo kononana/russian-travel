@@ -6,39 +6,31 @@
     line-height: 76px;
     text-align: center;
     text-decoration: none;
-    color: #FFFDFD;
+    color: white;
     z-index: 2;
     margin-top: 245px;
 }
 
-@media (max-width: 1024px) {
+@media screen and (max-width: 1024px) {
     .cover__title {
         margin-top: 195px;
     }
 }
 
-@media (max-width: 768px) {
+@media screen and (max-width: 768px) {
     .cover__title {
         margin-top: 115px;
     }
 }
 
-@media (max-width: 700px) {
-    .cover__title {
-        max-width: 80%;
-        font-size: 11vw;
-        line-height: 1;
-    }
-}
-
-@media (max-width: 425px) {
+@media screen and (max-width: 420px) {
     .cover__title {
         font-size: 32px;
         line-height: 35px;
     }
 }
 
-@media (max-width: 320px) {
+@media screen and (max-width: 320px) {
     .cover__title {
         margin-top: 33px;
     }

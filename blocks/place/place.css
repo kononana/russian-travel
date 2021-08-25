@@ -11,19 +11,19 @@
     margin-bottom: 0;
 }
 
-@media (max-width: 1024px) {
+@media screen and (max-width: 1024px) {
     .place {
         grid-gap: 48px 32px;
     }
 }
 
-@media (max-width: 768px) {
+@media screen and (max-width: 768px) {
     .place {
         grid-gap: 48px 28px;
     }
 }
 
-@media (max-width: 700px) {
+@media screen and (max-width: 700px) {
     .place {
         grid-template-columns: 1fr;
     }

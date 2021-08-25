@@ -11,17 +11,13 @@
     text-decoration: none;
 }
 
-.cover__background:hover {
-    opacity: 0.8;
-}
-
 .cover__background::before {
     content: '';
     position: absolute;
-    left: 0;
-    right: 0;
     bottom: 0;
     top: 0;
+    left: 0;
+    right: 0;
     background-color: #2A2C2F;
     opacity: 0.3;
 }
@@ -30,19 +26,19 @@
     opacity: 0.8;
 }
 
-@media (max-width: 1024px) {
+@media screen and (max-width: 1024px) {
     .cover__background {
         max-width: 1024px;
     }
 }
 
-@media (max-width: 768px) {
+@media screen and (max-width: 768px) {
     .cover__background {
         width: 100%;
     }
 }
 
-@media (max-width: 320px) {
+@media screen and (max-width: 320px) {
     .cover__background {
         max-width: 320px;
     }

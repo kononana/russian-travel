@@ -1,72 +1,33 @@
-.footer__copyright {
-    width: 282px;
-    max-height: 13px;
+.footer__copyright{
+    font-family: 'Inter';
     font-style: normal;
     font-weight: normal;
     font-size: 14px;
-    line-height: 20px;
+    line-height: 16px;
     text-align: right;
-    color: #FFFFFF;
-    margin: 0px 0px 0px 238px;
-}
-
-@media all and (min-width: 1281px) and (max-width: 1440px) {
-    .footer__copyright {
-        font-style: normal;
-        font-weight: normal;
-        font-size: 14px;
-        line-height: 20px;
-        text-align: right;
-        color: #FFFFFF;
-        @media all and (min-width: 1024px) and (max-width: 1280px) {
-            .footer__copyright {
-                font-style: normal;
-                font-weight: normal;
-                font-size: 14px;
-                line-height: 20px;
-                text-align: right;
-                color: #FFFFFF;
-                margin-left: 90px;
-            }
-        }
+    color: white;
+    align-self: flex-end;
+    padding:0;
+    margin:0;
+  }
+  @media(max-width: 690px) {
+    .footer__copyright{
+      align-self: flex-end;
     }
-}
-
-@media all and (min-width: 768px) and (max-width: 1024px) {
-    .footer__copyright {
-        font-style: normal;
-        font-weight: normal;
-        font-size: 14px;
-        line-height: 20px;
-        margin: 0;
-        text-align: right;
-        color: #FFFFFF;
+  }
+  @media(max-width: 360px) {
+    .footer__copyright{
+      align-self: flex-start;
     }
-}
-
-@media all and (min-width: 425px) and (max-width: 767px) {
-    .footer__copyright {
-        font-style: normal;
-        font-weight: normal;
-        font-size: 14px;
-        line-height: 20px;
-        margin: 0;
-        color: #FFFFFF;
-        text-align: start;
-        padding-top: 48px;
+  }
+  @media(max-width: 320px) {
+    .footer__copyright{
+      text-align: start;
+      margin: 0;
+      padding-top: 28px;
+      font-size: 14px;
+      line-height: 14px;
+      align-self: flex-start;
+      margin-left: 16px;
     }
-}
-
-@media all and (max-width: 425px) {
-    .footer__copyright {
-        font-style: normal;
-        font-weight: normal;
-        font-size: 14px;
-        line-height: 20px;
-        margin: 0;
-        text-align: start;
-        padding-top: 48px;
-        color: #FFFFFF;
-        max-width: 100%;
-    }
-}
+  }

@@ -3,7 +3,7 @@
     max-width: 1185px;
     min-width: 320px;
     background-color: #2A2C2F;
-    font-family: 'Inter', 'Arial', sans-serif;
+    font-family: 'Inter', 'Arial', 'Helvetica', sans-serif;
     box-sizing: border-box;
     text-rendering: optimizeLegibility;
 }

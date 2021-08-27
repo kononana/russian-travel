@@ -2,11 +2,11 @@
       width: 640px;
       margin: 0 auto;
       margin-top: 32px;
-      color: #fff;
       font-weight: normal;
       font-size: 30px;
       line-height: 36px;
       text-align: center;
+      color: white;
   }
   
   @media screen and (max-width: 767px) {

@@ -1,32 +1,21 @@
 .footer__link {
-    font-family: 'Inter';
-    text-decoration: none;
-    font-style: normal;
     font-weight: normal;
     font-size: 16px;
-    line-height: 1.1;
-    color: white;
-    list-style: none;
-    margin: 0 18px 0 0;
+    line-height: 18px;
+    color: #fff;
+    text-decoration: none;
+    transition: .5s opacity;
 }
 
-@media(max-width: 690px) {
-    .footer__link {
-        font-size: 20px;
-        line-height: 1.0;
-        padding-top: 22px;
-    }
+.footer__link:hover {
+    opacity: 0.6;
 }
 
-@media(max-width: 320px) {
+@media screen and (max-width: 767px) {
     .footer__link {
+        display: block;
         font-size: 24px;
-        line-height: 1.0;
-        padding-top: 32px;
-        margin-left: 16px;
+        line-height: 24px;
+        margin-bottom: 32px;
     }
-}
-
-.footer__link:first-child {
-    padding-top: 0;
 }

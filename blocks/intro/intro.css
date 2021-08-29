@@ -22,7 +22,7 @@
 @media screen and (max-width: 767px) {
     .intro {
         padding: 0;
-        width: calc(100% - 16px*2);
+        width: calc(100% - 16px * 2);
         margin-top: 64px;
     }
 }

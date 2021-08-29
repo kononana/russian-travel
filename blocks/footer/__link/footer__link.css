@@ -5,14 +5,19 @@
     text-decoration: none;
     transition: opacity .3s;
     color: white;
+    margin: 0;
+    padding: 0;
 }
 
 .footer__link:hover {
     opacity: 0.8;
 }
 
-.footer__link:nth-of-type(4) {
-    margin-bottom: 0;
+@media screen and(max-width: 1023) {
+    .footer__link {
+        font-size: 14px;
+        line-height: 16px;
+    }
 }
 
 @media screen and (max-width: 767px) {
@@ -21,5 +26,8 @@
         margin-bottom: 32px;
         font-size: 24px;
         line-height: 24px;
+    }
+    .footer__link:nth-of-type(4) {
+        margin-bottom: 0;
     }
 }

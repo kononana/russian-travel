@@ -34,6 +34,6 @@
           margin: 64px auto 0 auto;
           grid-template-columns: 288px;
           grid-template-rows: repeat(12, 216px);
-          gap: 12px;
+          grid-gap: 12px;
       }
   }

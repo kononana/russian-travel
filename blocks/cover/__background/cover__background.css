@@ -44,5 +44,7 @@
     .cover__background {
         min-height: 190px;
         margin-top: 0;
+        margin-top: 12px;
+        padding: 0;
     }
 }

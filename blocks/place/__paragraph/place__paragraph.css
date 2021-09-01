@@ -14,7 +14,10 @@
 @media screen and (max-width: 1023px) {
     .place__paragraph {
         font-size: 16px;
-        margin-bottom: 26px;
+        margin-bottom: 25px;
+    }
+    .place:nth-child(2) .place__paragraph:nth-child(2) {
+        min-height: 286px;
     }
 }
 

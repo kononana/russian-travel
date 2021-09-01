@@ -1,7 +1,6 @@
 .cover__background {
     background-image: url('../../../images/cover-trains.jpg');
     position: relative;
-    margin-top: 12px;
     padding: 20px;
     background-size: cover;
     min-height: 700px;
@@ -43,7 +42,6 @@
 @media screen and (max-width: 767px) {
     .cover__background {
         min-height: 190px;
-        margin-top: 0;
         margin-top: 0;
         padding: 0;
     }

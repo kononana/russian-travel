@@ -1,5 +1,6 @@
 .place__link {
     margin: 0;
+    padding: 0;
     color: white;
     transition: opacity .5s;
     font-size: 18px;

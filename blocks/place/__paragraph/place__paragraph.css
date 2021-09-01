@@ -30,19 +30,4 @@
     .place:nth-child(1) .place__paragraph:nth-child(2) {
         max-width: 81.2%;
     }
-    .place:nth-child(2) .place__paragraph:nth-child(2) {
-        min-height: 338px;
-    }
-    .place:nth-child(4) .place__paragraph:nth-child(2) {
-        max-width: 84%;
-    }
-    .place:nth-child(3) .place__paragraph:nth-child(2) {
-        max-width: 288px;
-    }
-    .place:nth-child(5) .place__paragraph {
-        max-width: 288px;
-    }
-}
-
-
 }

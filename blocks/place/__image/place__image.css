@@ -6,4 +6,7 @@
       .place__image {
           margin-top: 32px;
       }
+      .place__image:nth-child(4) {
+          margin-top: 31px;
+      }
   }

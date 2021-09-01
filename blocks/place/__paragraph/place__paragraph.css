@@ -28,7 +28,7 @@
         margin-bottom: 0;
     }
     .place:nth-child(1) .place__paragraph:nth-child(2) {
-        max-width: 82%;
+        max-width: 81.2%;
     }
     .place:nth-child(2) .place__paragraph:nth-child(2) {
         min-height: 338px;

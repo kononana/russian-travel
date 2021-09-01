@@ -6,12 +6,6 @@
       padding-bottom: 24px;
   }
   
-  @media screen and (max-width: 1023px) {
-      .footer__copyright {
-          padding-bottom: 20px;
-      }
-  }
-  
   @media screen and (max-width: 767px) {
       .footer__copyright {
           margin-top: 48px;
